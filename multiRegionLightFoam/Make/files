@@ -1,5 +1,0 @@
-regionProperties.C
-multiRegionLightFoam.C
-
-EXE = $(FOAM_USER_APPBIN)/multiRegionLightFoam
-
