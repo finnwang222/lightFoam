@@ -1,0 +1,29 @@
+/* light model */
+
+lightModel/lightModel/lightModel.C
+lightModel/lightModel/lightModelNew.C
+
+lightModel/lightDOM/lightDOM.C  
+lightModel/lightIntensityRay/lightIntensityRay.C 
+
+
+
+subModels/extinctionModel/extinctionModel/extinctionModel.C
+subModels/extinctionModel/extinctionModel/extinctionModelNew.C
+subModels/extinctionModel/wideBandExtinction/wideBandExtinction.C
+
+subModels/inScatterModel/inScatterModel/inScatterModel.C
+subModels/inScatterModel/inScatterModel/inScatterModelNew.C
+subModels/inScatterModel/anisotropicScattering/anisotropicScattering.C
+subModels/inScatterModel/deltaEddingtonModel/deltaEddingtonModel.C
+subModels/inScatterModel/userDefinedPhaseFunction/userDefinedPhaseFunction.C
+
+derivedFvPatchFields/surrounding/surroundingMixedFvPatchScalarField.C
+derivedFvPatchFields/transInteriorSurface/transInteriorSurfaceCoupledFvPatchScalarField.C
+derivedFvPatchFields/transExteriorSurface/transExteriorSurfaceMixedFvPatchScalarField.C
+derivedFvPatchFields/reflectiveSurface/reflectiveSurfaceMixedFvPatchScalarField.C
+derivedFvPatchFields/lamp/lampMixedFvPatchScalarField.C
+derivedFvPatchFields/multiBandTransInterior/multiBandTransInteriorCoupledFvPatchScalarField.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/liblight
